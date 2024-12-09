@@ -8,12 +8,26 @@
 </head>
 <body>
 
-    <h1>Fetch Data and Display</h1>
+    <h1>Find out more about KPOP</h1>
 
-    <label for="search-input">Search Kpop Group: </label>
+    <div id="kpop_info">
+    <label for="search-input">Search for more Kpop information: </label>
     <input type="text" id="search-input" placeholder="Example: Twice">
-    <button id="fetch-data">Find Group</button>
-
+    
+    <div id="kpop_checkbox">
+    <label for="kpop_check">Pick what you are looking for:</label>
+    <input type="checkbox" value="1" id="kpop_check" name="girl_group">
+    <label for="kpop_check">Girl-Group</label>
+    <input type="checkbox" value="2" id="kpop_check" name="boy_group">
+    <label for="kpop_check">Boy-Group</label>
+    <input type="checkbox" value="3" id="kpop_check" name="kpop_idol">
+    <label for="kpop_check">Kpop Idol</label>
+    <input type="checkbox" value="4" id="kpop_check" name="kpop_song">
+    <label for="kpop_check">Kpop Song</label>
+    </div>
+    </div>
+    <button id="kpopInfo">Find out more</button>
+    
     <div id="kpop_display"></div>
 
     <script src="kpop.js"></script>

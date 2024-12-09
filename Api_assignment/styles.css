@@ -2,11 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
-#data-container {
-    margin-top: 20px;
+#kpop_display {
+    border: 5px;
+    border-color: slateblue;
 }
-.data-item {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-}
+
+
